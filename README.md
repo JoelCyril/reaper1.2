@@ -9,6 +9,32 @@ Reaper One is an ESP32 hardware experimentation project with a button-driven OLE
   - BLE keyboard, BLE mouse, and nearby-device scanning
   - Wi-Fi/Marauder lab and testing modes
   - Simple endless-runner game
+ 
+### Required
+
+| Part | Quantity | Notes |
+| --- | ---: | --- |
+| [ESP32 DevKitC](https://www.espressif.com/en/products/devkits/esp32-devkitc) | 1 | Must provide the GPIO pins listed above; an ESP32-WROOM style board is suitable. |
+| [SH1106 128x64 I2C OLED](https://www.waveshare.com/1.3inch-oled-module.htm) | 1 | Main user interface display. |
+| [Momentary push buttons](https://www.sparkfun.com/tactile-switch-buttons-12mm-square.html) | 2 | Select and Back buttons on GPIO 27 and GPIO 26. |
+| [Resistor assortment](https://www.sparkfun.com/resistor-kit.html) | 1 | Used to build the resistor-ladder network for the Up, Down, Left, and Right buttons on GPIO 34. |
+| [MicroSD SPI card module](https://www.adafruit.com/product/254) | 1 | Connected to the SPI bus with chip-select on GPIO 5. |
+| [MicroSD card](https://www.adafruit.com/product/2693) | 1 | Used for saved IR, RFID, and Sub-GHz files. |
+| [USB cable and 5 V power source](https://www.adafruit.com/product/592) | 1 | Used to program and power the ESP32. |
+
+### Optional feature modules
+
+| Part | Quantity | Function |
+| --- | ---: | --- |
+| [CC1101 Sub-GHz module](https://www.elechouse.com/product/cc1101-wireless-module/) | 1 | Sub-GHz receive and saved-signal functions. |
+| [PN532 NFC module](https://www.adafruit.com/product/364) | 1 | NFC/RFID functions; configure the module for I2C. |
+| [IR receiver module](https://www.adafruit.com/product/157) | 1 | IR signal receive functions. |
+| [IR LED](https://www.adafruit.com/product/388) and [driver transistor](https://www.adafruit.com/product/756) | 1 each | IR signal transmission and replay. |
+
+The BLE, Wi-Fi, and game modes use the ESP32 and do not require an additional module in the current `Main_menu` implementation. Modules described here are not included with the repository.
+
+The BLE, Wi-Fi, and game modes use the ESP32 and do not require an additional module in the current `Main_menu` implementation. Modules described here are not included with the repository.
+
 ## Main Menu hardware
 
 The current `Main_menu` code is configured for an ESP32 with:
