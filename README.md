@@ -76,3 +76,6 @@ Arduino compiles the `.ino` files in the selected sketch folder together. Open `
 - **Bluetooth** - Scan for BLE devices and advertise as a BLE keyboard or mouse using the name `Reaper One`.
 - **Marauder** - Includes Wi-Fi testing modes such as target scanning, beacon testing, deauthentication testing, and an informational `MARAUDER_LAB` access point.
 - **Game** - A small button-controlled runner game.
+
+### AI declaration 
+- AI has done the main optimization for the code and has helped a lot in debugging
