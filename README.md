@@ -1,4 +1,4 @@
-Reaper One is an ESP32 hardware experimentation project with a button-driven OLED menu. It combines infrared, NFC/RFID, Sub-GHz, Bluetooth, Wi-Fi, and a small game mode in one firmware build. The repository also contains a separate ESP32 Marauder-based firmware sketch.
+<img width="3000" height="4000" alt="20260819_214306" src="https://github.com/user-attachments/assets/e3397bba-4173-456c-8255-a001d5151d7c" />Reaper One is an ESP32 hardware experimentation project with a button-driven OLED menu. It combines infrared, NFC/RFID, Sub-GHz, Bluetooth, Wi-Fi, and a small game mode in one firmware build. The repository also contains a separate ESP32 Marauder-based firmware sketch.
 
 ## Project layout
 
@@ -105,3 +105,14 @@ Arduino compiles the `.ino` files in the selected sketch folder together. Open `
 
 ### AI declaration 
 - AI has done the main optimization for the code and has helped a lot in debugging
+
+### Photos
+- final wiring 
+<img width="3000" height="4000" alt="20260819_214306" src="https://github.com/user-attachments/assets/e1bc60b7-47b4-4b13-a0fd-95d961567572" />
+<img width="3000" height="4000" alt="20260819_214321" src="https://github.com/user-attachments/assets/a1ca11cf-5d51-49e6-8b46-70caec23beaf" />
+- final item
+<img width="4000" height="3000" alt="20260819_214224" src="https://github.com/user-attachments/assets/cbaf0958-b6be-46be-9ad3-8734e22f5393" />
+<img width="4000" height="3000" alt="20260819_214231" src="https://github.com/user-attachments/assets/bf4e43d2-83f0-436c-9e1e-8669563540e3" />
+
+
+
