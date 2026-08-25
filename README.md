@@ -4,7 +4,7 @@ Reaper One is an ESP32 hardware experimentation project with a button-driven OLE
 
 - `Main_menu/` - Main Reaper One firmware.
   - IR signal receive, save, and replay
-  - PN532 NFC/RFID reading, saving, writing, and limited emulation features
+  - PN532 NFC/RFID reading, saving( writing, and limited emulation features in code but need different module)
   - CC1101/MD1101 Sub-GHz signal capture and saved-signal handling
   - BLE keyboard, BLE mouse, and nearby-device scanning
   - Wi-Fi/Marauder lab and testing modes
