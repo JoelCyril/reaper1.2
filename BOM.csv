@@ -1,0 +1,12 @@
+Category,Part,Quantity,Notes,Link
+Required,ESP32 DevKitC,1,"Must provide the GPIO pins listed in README.md; an ESP32-WROOM style board is suitable.",https://www.espressif.com/en/products/devkits/esp32-devkitc
+Required,SH1106 128x64 I2C OLED,1,"Main user interface display.",https://www.waveshare.com/1.3inch-oled-module.htm
+Required,Momentary push buttons,2,"Select and Back buttons on GPIO 27 and GPIO 26.",https://www.sparkfun.com/tactile-switch-buttons-12mm-square.html
+Required,Resistor assortment,1,"Used to build the resistor-ladder network for the Up, Down, Left, and Right buttons on GPIO 34.",https://www.sparkfun.com/resistor-kit.html
+Required,MicroSD SPI card module,1,"Connected to the SPI bus with chip-select on GPIO 5.",https://www.adafruit.com/product/254
+Required,MicroSD card,1,"Used for saved IR, RFID, and Sub-GHz files.",https://www.adafruit.com/product/2693
+Required,USB cable and 5 V power source,1,"Used to program and power the ESP32.",https://www.adafruit.com/product/592
+Optional,CC1101 Sub-GHz module,1,"Sub-GHz receive and saved-signal functions.",https://www.elechouse.com/product/cc1101-wireless-module/
+Optional,PN532 NFC module,1,"NFC/RFID functions; configure the module for I2C.",https://www.adafruit.com/product/364
+Optional,IR receiver module,1,"IR signal receive functions.",https://www.adafruit.com/product/157
+Optional,IR LED and driver transistor,1 each,"IR signal transmission and replay.",https://www.adafruit.com/product/388 ; https://www.adafruit.com/product/756
