@@ -116,5 +116,5 @@ Arduino compiles the `.ino` files in the selected sketch folder together. Open `
 ### Working Video
 https://drive.google.com/file/d/1RC4bbCK7HETr41AW5J_VPPJEHVHBSjnb/view?usp=sharing
 
-### Interactive Simulation
+### Interactive wiring diagram
 [Reaper One Wokwi Circuit Simulation](https://wokwi.com/projects/474794386394884097)
