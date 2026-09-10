@@ -1,14 +1,16 @@
 
 ## Project layout
 
-- `Main_menu/` - Main Reaper One firmware.
+- `firmware/Main_menu/` - Main Reaper One firmware (Arduino sketch folder).
   - IR signal receive, save, and replay
-  - PN532 NFC/RFID reading, saving( writing, and limited emulation features in code but need different module)
+  - PN532 NFC/RFID reading, saving, writing, and emulation
   - CC1101/MD1101 Sub-GHz signal capture and saved-signal handling
   - BLE keyboard, BLE mouse, and nearby-device scanning
   - Wi-Fi/Marauder lab and testing modes
   - Simple endless-runner game
- 
+- `hardware/` - Hardware design files and Bill of Materials (`BOM.csv`).
+- `docs/` - Documentation and build/wiring reference photos (`docs/photos/`).
+
 ### Required
 
 | Part | Quantity | Notes |
@@ -29,8 +31,6 @@
 | [PN532 NFC module](https://www.adafruit.com/product/364) | 1 | NFC/RFID functions; configure the module for I2C. |
 | [IR receiver module](https://www.adafruit.com/product/157) | 1 | IR signal receive functions. |
 | [IR LED](https://www.adafruit.com/product/388) and [driver transistor](https://www.adafruit.com/product/756) | 1 each | IR signal transmission and replay. |
-
-The BLE, Wi-Fi, and game modes use the ESP32 and do not require an additional module in the current `Main_menu` implementation. Modules described here are not included with the repository.
 
 The BLE, Wi-Fi, and game modes use the ESP32 and do not require an additional module in the current `Main_menu` implementation. Modules described here are not included with the repository.
 
@@ -87,11 +87,11 @@ Saved files are stored on the SD card in these directories:
    - ESP32 BLE Keyboard
    - ESP32 BLE Mouse
 4. Connect the required modules and buttons using the pin table above.
-5. In Arduino IDE, open the sketch folder `Main_menu` and select the matching ESP32 board and serial port.
+5. In Arduino IDE, open the sketch folder `firmware/Main_menu` (or `firmware/Main_menu/Main_menu.ino`) and select the matching ESP32 board and serial port.
 6. Compile and upload the sketch.
 7. Open the Serial Monitor at `115200` baud.
 
-Arduino compiles the `.ino` files in the selected sketch folder together. Open `Main_menu` as the sketch folder rather than opening only `Main_menu.ino` as an isolated file.
+Arduino compiles the `.ino` files in the selected sketch folder together. Open `firmware/Main_menu` as the sketch folder rather than opening individual `.ino` files.
 
 ### Reaper One
 
