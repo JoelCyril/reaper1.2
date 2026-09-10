@@ -1,4 +1,3 @@
-<img width="3000" height="4000" alt="20260819_214306" src="https://github.com/user-attachments/assets/e3397bba-4173-456c-8255-a001d5151d7c" />Reaper One is an ESP32 hardware experimentation project with a button-driven OLED menu. It combines infrared, NFC/RFID, Sub-GHz, Bluetooth, Wi-Fi, and a small game mode in one firmware build. The repository also contains a separate ESP32 Marauder-based firmware sketch.
 
 ## Project layout
 
